@@ -48,3 +48,17 @@ def getresult():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=80)
+
+
+
+    # http://blog.luisrei.com/articles/flaskrest.html
+    # data = {
+    #     'hello'  : 'world',
+    #     'number' : 3
+    # }
+    # js = json.dumps(data)
+    #
+    # resp = Response(js, status=200, mimetype='application/json')
+    # resp.headers['Link'] = 'http://luisrei.com'
+    #
+    # return resp
